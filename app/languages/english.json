@@ -1,0 +1,403 @@
+{
+	"language_code": "en",
+	"global": {
+		"submit": "Submit",
+		"create": "Create",
+		"delete": "Delete",
+		"edit": "Edit",
+		"view": "View",
+		"cancel": "Cancel",
+		"update": "Update",
+		"enable": "Enable",
+		"disable": "Disable",
+		"hidden": "Hidden",
+		"login": "Login",
+		"language": "Language",
+		"choose_language": "Choose Language",
+		"theme_style": "Theme",
+		"theme_style_light": "Light",
+		"theme_style_dark": "Dark",
+		"close": "Close",
+		"search": "Search",
+		"go_back_button": "Go Back",
+		"no_data": "No data available..",
+		"date_selector": "Date selector",
+		"yes": "Yes",
+		"no": "No",
+		"active": "Active",
+		"disabled": "Disabled",
+		"date_range_selector": "Select date",
+		"export_csv": "Export to CSV",
+		"export_json": "Export to JSON",
+		"captcha_placeholder": "Captcha text",
+		"loading": "Loading..",
+		"view_more": "View more",
+		"view_x_more": "View %s more..",
+		"clipboard_copy": "Copy to clipboard",
+		"verified": "Verified",
+		"transfer": "Transfer",
+		"clone": "Clone",
+		"publish": "Publish",
+		"description_publish": "Your page is not saved! Click Publish to create a FREE <br /> account and save your page.",
+		"message_type": {
+			"error": "Error!",
+			"info": "Info!",
+			"success": "Success!"
+		},
+		"info_message": {
+			"confirm_delete": "Are you sure you want to delete this?",
+			"user_package_is_expired": "Your current package has expired and your access is limited. Please get a new package!",
+			"unlock_feature": "Unlock access to this feature",
+			"locked_feature": "This feature is locked"
+		},
+		"success_message": {
+			"basic": "Your requested command was performed successfully!",
+			"user_activated": "Your account is now active!"
+		},
+		"error_message": {
+			"directory_not_writable": "Directory is not writable <strong>%s</strong>",
+			"empty_fields": "You must fill all the fields!",
+			"invalid_captcha": "The captcha code is not valid!",
+			"invalid_file_type": "Invalid file type!",
+			"file_upload": "Something happened while uploading the image and we could not process it.",
+			"invalid_csrf_token": "The action could not be finished because the protector has expired, please try again!",
+			"basic": "We could not perform your requested command!"
+		},
+		"menu": {
+			"home": "Home",
+			"logout": "Logout",
+			"settings": "Settings",
+			"admin": "Admin",
+			"website": "Visit website",
+			"admin_others": "Others"
+		},
+		"accessibility": {
+			"toggle_navigation": "Toggle navigation",
+			"logo_alt": "Website Logo",
+			"captcha_alt": "Captcha",
+			"captcha_input": "Captcha Field"
+		},
+		"date": {
+			"CHANGE_THOSE_AT_YOUR_OWN_RESPONSIBILITY": "",
+			"datetime_readable_format": "%1$s %2$s, %3$s",
+			"datetime_ymd_format": "%1$s-%2$s-%3$s",
+			"datetime_his_format": "%1$s:%2$s:%3$s",
+			"datetime_ymd_his_format": "%1$s-%2$s-%3$s %4$s:%5$s:%6$s",
+			"now": "now",
+			"today": "today",
+			"clear": "clear",
+			"second": "second",
+			"seconds": "seconds",
+			"minute": "minute",
+			"minutes": "minutes",
+			"hour": "hour",
+			"hours": "hours",
+			"day": "day",
+			"days": "days",
+			"month": "month",
+			"months": "months",
+			"year": "year",
+			"years": "years",
+			"time_ago": "%1$s %2$s ago",
+			"time_until": "%1$s %2$s until",
+			"long_days": {
+				"1": "Monday",
+				"2": "Tuesday",
+				"3": "Wednesday",
+				"4": "Thursday",
+				"5": "Friday",
+				"6": "Saturday",
+				"7": "Sunday"
+			},
+			"short_days": {
+				"1": "Mon",
+				"2": "Tue",
+				"3": "Wed",
+				"4": "Thu",
+				"5": "Fri",
+				"6": "Sat",
+				"7": "Sun"
+			},
+			"long_months": {
+				"1": "January",
+				"2": "February",
+				"3": "March",
+				"4": "April",
+				"5": "May",
+				"6": "June",
+				"7": "July",
+				"8": "August",
+				"9": "September",
+				"10": "October",
+				"11": "November",
+				"12": "December"
+			},
+			"short_months": {
+				"1": "Jan",
+				"2": "Feb",
+				"3": "Mar",
+				"4": "Apr",
+				"5": "May",
+				"6": "Jun",
+				"7": "Jul",
+				"8": "Aug",
+				"9": "Sep",
+				"10": "Oct",
+				"11": "Nov",
+				"12": "Dec"
+			}
+		},
+		"number": {
+			"decimal_point": ".",
+			"thousands_separator": ","
+		}
+	},
+	"notification": {
+		"chat_notification": {
+			"tooltip": {
+				"empty_widget_code": "Please add Tawk.to Widget code!",
+				"not_validate_widget_code": "You entered wrong widget code, Please add correct Widget code!"
+			}
+		}
+	},
+	"dashboard": {
+		"breadcrumb": "Dashboard",
+		"projects": {
+			"header": "Your Projects",
+			"subheader": "A project can contain multiple Biolink Pages or Shortened links.",
+			"create": "Create Project",
+			"name": "Name",
+			"domain": "Domain",
+			"date": "Created",
+			"no_data": "No active projects..",
+			"no_data_help": "Create one now"
+		}
+	},
+	"project": {
+		"title": "%s Project",
+		"breadcrumb": "Project",
+		"header": {
+			"header": "%s Project",
+			"subheader": "All the links created in this project."
+		},
+		"links": {
+			"header": "Project Links",
+			"create": "Create",
+			"total": "Total links",
+			"clicks": "Total unique clicks",
+			"type": "Type",
+			"date": "Launched on",
+			"is_enabled": "Status",
+			"is_enabled_tooltip": "Change the status",
+			"no_data": "No links attached to this project..",
+			"no_data_help": "Create one now"
+		},
+		"error_message": {
+			"projects_limit": "You have exceeded the limit of projects on your package."
+		}
+	},
+	"link": {
+		"title": "%s Link",
+		"breadcrumb_biolink": "Biolink",
+		"header": {
+			"header": "%s",
+			"subheader": "Your link is %s",
+			"links": "Back to Links List",
+			"links_tab": "Links"
+		},
+		"links": {
+			"link_sort": "Touch and drag to reorder.",
+			"no_links": "😕 There are no links created at the moment..",
+			"no_data": "No links to show. Start by creating one.",
+			"settings": "Settings",
+			"switch_status": "Switch Status",
+			"duplicate": "Duplicate"
+		},
+		"statistics": {
+			"breadcrumb": "Statistics",
+			"header": "Statistics",
+			"link": "Statistics",
+			"no_data": "No data to show..",
+			"missing_statistics_package": "Your current package does not allow you to see statistics.",
+			"clicks_chart": "Clicks Chart",
+			"impressions": "Impressions",
+			"uniques": "Uniques",
+			"lastactivity": "Last activity",
+			"lastactivity_help": "Here you can see the latest visits on your link.",
+			"country_code": "Countries",
+			"country_code_help": "Detected countries that accessed the link.",
+			"country_code_unknown": "Unknown",
+			"os_name": "Operating Systems",
+			"os_name_help": "Find which OS is the most popular among your visitors.",
+			"os_name_unknown": "Unknown",
+			"browser_name": "Browsers",
+			"browser_name_help": "Find what browsers your visitors are using.",
+			"browser_name_unknown": "Unknown",
+			"browser_language": "Browser Languages",
+			"browser_language_help": "Discover the browser languages that your visitors are having.",
+			"browser_language_unknown": "Unknown",
+			"device_type": "Devices",
+			"device_type_help": "Discover the browser languages that your visitors are having.",
+			"device_type_unknown": "Unknown",
+			"device_type_desktop": "Desktop",
+			"device_type_tablet": "Tablet",
+			"device_type_mobile": "Mobile",
+			"referrer": "Referers",
+			"referrer_help": "Where is your traffic coming from?",
+			"referrer_direct": "Direct"
+		},
+		"qr": {
+			"link": "QR Code"
+		},
+		"success_message": {
+			"settings_updated": "Update successful!"
+		},
+		"error_message": {
+			"blacklisted_url": "This custom url is not available for usage!",
+			"blacklisted_domain": "This domain has been blacklisted, you can't use it!",
+			"blacklisted_keyword": "This custom url is blacklisted!",
+			"blacklisted_location_url": "This url has been blacklisted, you can't use it!",
+			"invalid_location_url": "Your entered link has an invalid format! Maybe you're missing the https:// from the url?",
+			"invalid_youtube_location_url": "Your entered youtube link has an invalid format!"
+		},
+		"biolink": {
+			"name": "Biolink",
+			"icon": "fa fa-fw fa-hashtag",
+			"color": "#0089ff",
+			"image_alt": "Avatar",
+			"title_default": "My Featured Links 🔥",
+			"title_default_exception": "My Featured Links \\ud83d\\udd25",
+			"description_default": "",
+			"vimeo": {
+				"name": "Vimeo",
+				"icon": "fab fa-vimeo",
+				"color": "#1ab7ea"
+			}
+		},
+		"link": {
+			"name": "Link",
+			"icon": "fa-link",
+			"color": "#00526b"
+		}
+	},
+	"index": {
+		"title": "Multiple Bio Links for Instagram",
+		"header": "Get the most of your<br />Instagram Bio Link",
+		"subheader": "Create shorted links, unique biolink pages and get proper statistics of your visitors.",
+		"sign_up": "Get Started ⚡️",
+		"breadcrumb": "Home",
+		"is_custom_domain": "Custom domain",
+		"presentation": {
+			"header": "Create beautiful <u>biolink pages</u>",
+			"subheader": "Create and manage multiple Biolink Pages for your team from a single dashboard."
+		},
+		"presentation2": {
+			"header": "Manage multiple projects",
+			"subheader": "One project for you, one for your friend, one for your company. One account is all you need."
+		},
+		"presentation3": {
+			"header": "Biolinks & Shorted links",
+			"subheader": "Yes! You can use our service as a shortener as well."
+		},
+		"presentation4": {
+			"header": "Bring creativity to life",
+			"subheader": "Add your own touch to your biolinks page with our editor and stand out from the crowd."
+		},
+		"presentation5": {
+			"header": "Day by day statistics",
+			"subheader": "Get to know your audience with our detailed statistics and if those are not enough, you can even integrate Google Analytics."
+		},
+		"setup": {
+			"header": "Easy Setup & Integrate on any Website.",
+			"description": "These are just a few examples. <br />Any website can run our notifications.",
+			"shopify": "Shopify",
+			"wordpress": "Wordpress",
+			"zapier": "Zapier",
+			"squarespace": "Squarespace"
+		},
+		"tools": {
+			"header": "Your Free Marketing Tools 🔥",
+			"subheader": "Choose from a wide variety of notifications.",
+			"preview": "Notification Preview",
+			"preview_description": "Choose any type of notification and preview it live."
+		},
+		"pricing": {
+			"header": "Choose your package",
+			"subheader": "Choose and get your plan based on your needs."
+		}
+	},
+	"notfound": {
+		"title": "Not found",
+		"header": "404 Not Found",
+		"subheader": "The page you’re looking for was not found."
+	},
+	"project_create_modal": {
+		"header": "Create New Project",
+		"subheader": "A project can manage multiple biolink pages and shorted links.",
+		"input": {
+			"name": "Name"
+		},
+		"success_message": {
+			"created": "The new project is now created!"
+		},
+		"error_message": {
+			"projects_limit": "Your plan does not allow creating more projects 😔."
+		}
+	},
+	"project_update_modal": {
+		"header": "Update Project",
+		"subheader": "Update your project's details.",
+		"input": {
+			"name": "Name"
+		},
+		"success_message": {
+			"updated": "The project was updated!"
+		}
+	},
+	"project_delete_modal": {
+		"header": "Delete Project",
+		"subheader": "All data related to the project will be completely deleted. This action cannot be undone.",
+		"success_message": "Project deletion was performed successfully!"
+	},
+	"create_link_modal": {
+		"header": "Create a New Link",
+		"subheader": "Easily shorten the links that you want. More settings are available after the creation of the link.",
+		"input": {
+			"location_url": "Long Url",
+			"location_url_placeholder": "https://domain.com/demo/long-url-demo",
+			"url": "Short Url",
+			"url_placeholder_custom": "your-custom-alias",
+			"url_placeholder": "randomly generated alias",
+			"url_help": "Leave empty for a random generated one.",
+			"submit": "Shorten Url"
+		},
+		"error_message": {
+			"links_limit": "Your plan exceeded the maximum amount of links.",
+			"url_exists": "Your selected Short Url already exists. Please choose a different one."
+		}
+	},
+	"create_biolink_modal": {
+		"header": "Create a New Biolink Page",
+		"subheader": "More settings are available after the creation of the biolink.",
+		"input": {
+			"url": "Biolink URL",
+			"url_placeholder_custom": "your-custom-alias",
+			"url_placeholder": "randomly generated alias",
+			"url_help": "Leave empty for a random generated one.",
+			"submit": "Create Biolink Page"
+		},
+		"error_message": {
+			"biolinks_limit": "Your plan exceeded the maximum amount of biolinks.",
+			"url_exists": "url_exist"
+		}
+	},
+	"create_biolink_vimeo_modal": {
+		"header": "Add a Vimeo video",
+		"subheader": "Paste in your Vimeo URL and we will show it as a video on your profile.",
+		"input": {
+			"location_url": "Vimeo URL",
+			"location_url_placeholder": "https://vimeo.com/43338103",
+			"submit": "Add Video"
+		}
+	}
+}
